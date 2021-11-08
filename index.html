@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<script type="module">
+import init, {js_sleep as sleep} from './pkg/wasm_sleep.js';
+
+async function main() {
+  await init();
+
+  console.log('Started.');
+
+  await sleep(5);
+
+  console.log('Done.');
+}
+
+main();
+</script>
+</body>
+
+</html>
