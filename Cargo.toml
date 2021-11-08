@@ -1,11 +1,11 @@
 [package]
-name = "wasm_sleep"
+name = "wasm-sleep"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-name = "wasm_sleep"
-crate-type = ["cdylib"]
+#[lib]
+#name = "wasm_sleep"
+#crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = "*"
