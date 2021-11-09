@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
-crate-type = ["cdylib", "lib"]
+crate-type = ["lib", "cdylib"]
 
 [dependencies]
 wasm-bindgen = "*"
 wasm-bindgen-futures = "*"
 js-sys = "*"
-fluvio-wasm-timer = "*"
+#fluvio-wasm-timer = "*"
+wasm-timer = "*"
