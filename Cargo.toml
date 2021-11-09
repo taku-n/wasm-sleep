@@ -10,5 +10,4 @@ crate-type = ["lib", "cdylib"]
 wasm-bindgen = "*"
 wasm-bindgen-futures = "*"
 js-sys = "*"
-#fluvio-wasm-timer = "*"
-wasm-timer = "*"
+fluvio-wasm-timer = "*"

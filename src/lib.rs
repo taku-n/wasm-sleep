@@ -3,7 +3,7 @@ use js_sys::Promise;
 
 use std::time::Duration;
 
-use wasm_timer::Delay;
+use fluvio_wasm_timer::Delay;
 
 pub async fn sleep(s: i32) {
     let s_u64 = u64::try_from(s).unwrap();
